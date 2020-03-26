@@ -113,8 +113,8 @@ export default class Unity extends React.Component<IUnityProps, IUnityState> {
         this.props.unityContent.buildJsonPath, {
           onProgress: this.onProgress.bind(this),
           Module: this.props.unityContent.unityConfig.modules,
-          width: this.props.width || 800,
-          height: this.props.height || 600
+//           width: this.props.width || 800,
+//           height: this.props.height || 600
         }));
       }
     );
